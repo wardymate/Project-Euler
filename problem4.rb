@@ -12,3 +12,4 @@ while $y>100 do
 	$y=$y-1
 end
 puts arr.sort.last
+# a bit slow but works
