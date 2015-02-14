@@ -7,16 +7,16 @@ def sum(numbers)
 end
 
 def solution (n)
-arr = []
-(1..n-1).each do |x| 
-    if x % 3 == 0
-  	arr << x
+	arr = []
+	(1..n-1).each do |x| 
+   	if x % 3 == 0
+  		arr << x
    	elsif x % 5 == 0
-   	arr << x
-end
-end
-puts arr
-arr.inject(0, :+)
+   		arr << x
+		end
+	end
+	puts arr
+	arr.inject(0, :+)
 
 end
 
